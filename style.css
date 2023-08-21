@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #e8eaec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  width: 450px;
+}
+.container .inputs {
+  background-color: #e8eaec;
+  padding: 30px 25px;
+  box-shadow: 4px 4px 8px rgb(189, 200, 213), -4px 4px 8px rgb(255, 255, 255);
+  border-radius: 8px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+input,
+button {
+  height: 50px;
+  background-color: #e8eaec;
+  color: #080808;
+  font-weight: 500;
+  border-radius: 5px;
+  box-shadow: 4px 4px 8px rgb(189, 200, 213), -4px 4px 8px rgb(255, 255, 255);
+}
+input {
+  width: 60%;
+  padding: 0 20px;
+  font-size: 14px;
+}
+button {
+  width: 30%;
+  cursor: pointer;
+}
+.container .outputs {
+  display: flex;
+  justify-content: space-between;
+}
+.container .outputs div {
+  width: 100px;
+  height: 100px;
+  background-color: #e8eaec;
+  box-shadow: 4px 4px 8px rgb(189, 200, 213), -4px 4px 8px rgb(255, 255, 255);
+  border-radius: 5px;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+.container .outputs div span {
+  font-size: 30px;
+  font-weight: 500;
+}
+.container .outputs div p {
+  font-size: 14px;
+  color: #707070;
+  font-weight: 400;
+}
+@media (max-width: 500px) {
+  .container {
+    width: 350px;
+  }
+}
